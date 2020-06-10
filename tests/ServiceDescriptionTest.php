@@ -45,7 +45,7 @@ class ServiceDescriptionTest extends TestCase
 
     public function testBaseUri()
     {
-        $this->assertEquals('https://discordapp.com/api/v6', $this->description['baseUri']);
+        $this->assertEquals('https://discord.com/api/v6', $this->description['baseUri']);
     }
 
     public function testVersion()

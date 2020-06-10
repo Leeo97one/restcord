@@ -1,10 +1,10 @@
 {
-    "baseUri": "https://discordapp.com/api/v6",
+    "baseUri": "https://discord.com/api/v6",
     "version": 6,
     "operations": {
         "guild": {
             "createGuild": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#create-guild",
+                "link": "https://discord.com/developers/docs/resources/guild#create-guild",
                 "resource": "guild",
                 "name": "Create Guild",
                 "method": "POST",
@@ -62,7 +62,7 @@
                 "parametersArray": false
             },
             "getGuild": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild",
                 "resource": "guild",
                 "name": "Get Guild",
                 "method": "GET",
@@ -85,7 +85,7 @@
                 "parametersArray": false
             },
             "modifyGuild": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#modify-guild",
+                "link": "https://discord.com/developers/docs/resources/guild#modify-guild",
                 "resource": "guild",
                 "name": "Modify Guild",
                 "method": "PATCH",
@@ -163,7 +163,7 @@
                 "parametersArray": false
             },
             "deleteGuild": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#delete-guild",
+                "link": "https://discord.com/developers/docs/resources/guild#delete-guild",
                 "resource": "guild",
                 "name": "Delete Guild",
                 "method": "DELETE",
@@ -180,7 +180,7 @@
                 "parametersArray": false
             },
             "getGuildChannels": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild-channels",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild-channels",
                 "resource": "guild",
                 "name": "Get Guild Channels",
                 "method": "GET",
@@ -203,7 +203,7 @@
                 "parametersArray": false
             },
             "createGuildChannel": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#create-guild-channel",
+                "link": "https://discord.com/developers/docs/resources/guild#create-guild-channel",
                 "resource": "guild",
                 "name": "Create Guild Channel",
                 "method": "POST",
@@ -277,7 +277,7 @@
                 "parametersArray": false
             },
             "modifyGuildChannelPositions": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#modify-guild-channel-positions",
+                "link": "https://discord.com/developers/docs/resources/guild#modify-guild-channel-positions",
                 "resource": "guild",
                 "name": "Modify Guild Channel Positions",
                 "method": "PATCH",
@@ -304,7 +304,7 @@
                 "parametersArray": false
             },
             "getGuildMember": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild-member",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild-member",
                 "resource": "guild",
                 "name": "Get Guild Member",
                 "method": "GET",
@@ -332,7 +332,7 @@
                 "parametersArray": false
             },
             "listGuildMembers": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#list-guild-members",
+                "link": "https://discord.com/developers/docs/resources/guild#list-guild-members",
                 "resource": "guild",
                 "name": "List Guild Members",
                 "method": "GET",
@@ -366,7 +366,7 @@
                 "parametersArray": false
             },
             "addGuildMember": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#add-guild-member",
+                "link": "https://discord.com/developers/docs/resources/guild#add-guild-member",
                 "resource": "guild",
                 "name": "Add Guild Member",
                 "method": "PUT",
@@ -436,7 +436,7 @@
                 "parametersArray": false
             },
             "modifyGuildMember": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#modify-guild-member",
+                "link": "https://discord.com/developers/docs/resources/guild#modify-guild-member",
                 "resource": "guild",
                 "name": "Modify Guild Member",
                 "method": "PATCH",
@@ -501,7 +501,7 @@
                 "parametersArray": false
             },
             "modifyCurrentUserNick": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#modify-current-user-nick",
+                "link": "https://discord.com/developers/docs/resources/guild#modify-current-user-nick",
                 "resource": "guild",
                 "name": "Modify Current User Nick",
                 "method": "PATCH",
@@ -526,7 +526,7 @@
                 "parametersArray": false
             },
             "addGuildMemberRole": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#add-guild-member-role",
+                "link": "https://discord.com/developers/docs/resources/guild#add-guild-member-role",
                 "resource": "guild",
                 "name": "Add Guild Member Role",
                 "method": "PUT",
@@ -553,7 +553,7 @@
                 "parametersArray": false
             },
             "removeGuildMemberRole": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#remove-guild-member-role",
+                "link": "https://discord.com/developers/docs/resources/guild#remove-guild-member-role",
                 "resource": "guild",
                 "name": "Remove Guild Member Role",
                 "method": "DELETE",
@@ -580,7 +580,7 @@
                 "parametersArray": false
             },
             "removeGuildMember": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#remove-guild-member",
+                "link": "https://discord.com/developers/docs/resources/guild#remove-guild-member",
                 "resource": "guild",
                 "name": "Remove Guild Member",
                 "method": "DELETE",
@@ -602,7 +602,7 @@
                 "parametersArray": false
             },
             "getGuildBans": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild-bans",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild-bans",
                 "resource": "guild",
                 "name": "Get Guild Bans",
                 "method": "GET",
@@ -625,7 +625,7 @@
                 "parametersArray": false
             },
             "getGuildBan": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild-ban",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild-ban",
                 "resource": "guild",
                 "name": "Get Guild Ban",
                 "method": "GET",
@@ -653,7 +653,7 @@
                 "parametersArray": false
             },
             "createGuildBan": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#create-guild-ban",
+                "link": "https://discord.com/developers/docs/resources/guild#create-guild-ban",
                 "resource": "guild",
                 "name": "Create Guild Ban",
                 "method": "PUT",
@@ -685,7 +685,7 @@
                 "parametersArray": false
             },
             "removeGuildBan": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#remove-guild-ban",
+                "link": "https://discord.com/developers/docs/resources/guild#remove-guild-ban",
                 "resource": "guild",
                 "name": "Remove Guild Ban",
                 "method": "DELETE",
@@ -707,7 +707,7 @@
                 "parametersArray": false
             },
             "getGuildRoles": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild-roles",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild-roles",
                 "resource": "guild",
                 "name": "Get Guild Roles",
                 "method": "GET",
@@ -730,7 +730,7 @@
                 "parametersArray": false
             },
             "createGuildRole": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#create-guild-role",
+                "link": "https://discord.com/developers/docs/resources/guild#create-guild-role",
                 "resource": "guild",
                 "name": "Create Guild Role",
                 "method": "POST",
@@ -782,7 +782,7 @@
                 "parametersArray": false
             },
             "modifyGuildRolePositions": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#modify-guild-role-positions",
+                "link": "https://discord.com/developers/docs/resources/guild#modify-guild-role-positions",
                 "resource": "guild",
                 "name": "Modify Guild Role Positions",
                 "method": "PATCH",
@@ -815,7 +815,7 @@
                 "parametersArray": false
             },
             "modifyGuildRole": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#modify-guild-role",
+                "link": "https://discord.com/developers/docs/resources/guild#modify-guild-role",
                 "resource": "guild",
                 "name": "Modify Guild Role",
                 "method": "PATCH",
@@ -870,7 +870,7 @@
                 "parametersArray": false
             },
             "deleteGuildRole": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#delete-guild-role",
+                "link": "https://discord.com/developers/docs/resources/guild#delete-guild-role",
                 "resource": "guild",
                 "name": "Delete Guild Role",
                 "method": "DELETE",
@@ -892,7 +892,7 @@
                 "parametersArray": false
             },
             "getGuildPruneCount": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild-prune-count",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild-prune-count",
                 "resource": "guild",
                 "name": "Get Guild Prune Count",
                 "method": "GET",
@@ -914,7 +914,7 @@
                 "parametersArray": false
             },
             "beginGuildPrune": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#begin-guild-prune",
+                "link": "https://discord.com/developers/docs/resources/guild#begin-guild-prune",
                 "resource": "guild",
                 "name": "Begin Guild Prune",
                 "method": "POST",
@@ -942,7 +942,7 @@
                 "parametersArray": false
             },
             "getGuildVoiceRegions": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild-voice-regions",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild-voice-regions",
                 "resource": "guild",
                 "name": "Get Guild Voice Regions",
                 "method": "GET",
@@ -965,7 +965,7 @@
                 "parametersArray": false
             },
             "getGuildInvites": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild-invites",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild-invites",
                 "resource": "guild",
                 "name": "Get Guild Invites",
                 "method": "GET",
@@ -992,7 +992,7 @@
                 "parametersArray": false
             },
             "getGuildIntegrations": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild-integrations",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild-integrations",
                 "resource": "guild",
                 "name": "Get Guild Integrations",
                 "method": "GET",
@@ -1015,7 +1015,7 @@
                 "parametersArray": false
             },
             "createGuildIntegration": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#create-guild-integration",
+                "link": "https://discord.com/developers/docs/resources/guild#create-guild-integration",
                 "resource": "guild",
                 "name": "Create Guild Integration",
                 "method": "POST",
@@ -1042,7 +1042,7 @@
                 "parametersArray": false
             },
             "modifyGuildIntegration": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#modify-guild-integration",
+                "link": "https://discord.com/developers/docs/resources/guild#modify-guild-integration",
                 "resource": "guild",
                 "name": "Modify Guild Integration",
                 "method": "PATCH",
@@ -1080,7 +1080,7 @@
                 "parametersArray": false
             },
             "deleteGuildIntegration": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#delete-guild-integration",
+                "link": "https://discord.com/developers/docs/resources/guild#delete-guild-integration",
                 "resource": "guild",
                 "name": "Delete Guild Integration",
                 "method": "DELETE",
@@ -1102,7 +1102,7 @@
                 "parametersArray": false
             },
             "syncGuildIntegration": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#sync-guild-integration",
+                "link": "https://discord.com/developers/docs/resources/guild#sync-guild-integration",
                 "resource": "guild",
                 "name": "Sync Guild Integration",
                 "method": "POST",
@@ -1124,7 +1124,7 @@
                 "parametersArray": false
             },
             "getGuildEmbed": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild-embed",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild-embed",
                 "resource": "guild",
                 "name": "Get Guild Embed",
                 "method": "GET",
@@ -1147,7 +1147,7 @@
                 "parametersArray": false
             },
             "modifyGuildEmbed": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#modify-guild-embed",
+                "link": "https://discord.com/developers/docs/resources/guild#modify-guild-embed",
                 "resource": "guild",
                 "name": "Modify Guild Embed",
                 "method": "PATCH",
@@ -1170,7 +1170,7 @@
                 "parametersArray": false
             },
             "getGuildVanityUrl": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild-vanity-url",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild-vanity-url",
                 "resource": "guild",
                 "name": "Get Guild Vanity URL",
                 "method": "GET",
@@ -1193,7 +1193,7 @@
                 "parametersArray": false
             },
             "getGuildWidgetImage": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#get-guild-widget-image",
+                "link": "https://discord.com/developers/docs/resources/guild#get-guild-widget-image",
                 "resource": "guild",
                 "name": "Get Guild Widget Image",
                 "method": "GET",
@@ -1238,7 +1238,7 @@
         },
         "audit-log": {
             "getGuildAuditLog": {
-                "link": "https://discordapp.com/developers/docs/resources/audit-log#get-guild-audit-log",
+                "link": "https://discord.com/developers/docs/resources/audit-log#get-guild-audit-log",
                 "resource": "audit-log",
                 "name": "Get Guild Audit Log",
                 "method": "GET",
@@ -1263,7 +1263,7 @@
         },
         "channel": {
             "getChannel": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#get-channel",
+                "link": "https://discord.com/developers/docs/resources/channel#get-channel",
                 "resource": "channel",
                 "name": "Get Channel",
                 "method": "GET",
@@ -1286,7 +1286,7 @@
                 "parametersArray": false
             },
             "modifyChannel": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#modify-channel",
+                "link": "https://discord.com/developers/docs/resources/channel#modify-channel",
                 "resource": "channel",
                 "name": "Modify Channel",
                 "method": "PATCH",
@@ -1382,7 +1382,7 @@
                 "parametersArray": false
             },
             "deleteOrcloseChannel": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#delete/close-channel",
+                "link": "https://discord.com/developers/docs/resources/channel#delete/close-channel",
                 "resource": "channel",
                 "name": "Delete/Close Channel",
                 "method": "DELETE",
@@ -1405,7 +1405,7 @@
                 "parametersArray": false
             },
             "getChannelMessages": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#get-channel-messages",
+                "link": "https://discord.com/developers/docs/resources/channel#get-channel-messages",
                 "resource": "channel",
                 "name": "Get Channel Messages",
                 "method": "GET",
@@ -1461,7 +1461,7 @@
                 "parametersArray": false
             },
             "getChannelMessage": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#get-channel-message",
+                "link": "https://discord.com/developers/docs/resources/channel#get-channel-message",
                 "resource": "channel",
                 "name": "Get Channel Message",
                 "method": "GET",
@@ -1489,7 +1489,7 @@
                 "parametersArray": false
             },
             "createMessage": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#create-message",
+                "link": "https://discord.com/developers/docs/resources/channel#create-message",
                 "resource": "channel",
                 "name": "Create Message",
                 "method": "POST",
@@ -1536,7 +1536,7 @@
                 "parametersArray": false
             },
             "createReaction": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#create-reaction",
+                "link": "https://discord.com/developers/docs/resources/channel#create-reaction",
                 "resource": "channel",
                 "name": "Create Reaction",
                 "method": "PUT",
@@ -1563,7 +1563,7 @@
                 "parametersArray": false
             },
             "deleteOwnReaction": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#delete-own-reaction",
+                "link": "https://discord.com/developers/docs/resources/channel#delete-own-reaction",
                 "resource": "channel",
                 "name": "Delete Own Reaction",
                 "method": "DELETE",
@@ -1590,7 +1590,7 @@
                 "parametersArray": false
             },
             "deleteUserReaction": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#delete-user-reaction",
+                "link": "https://discord.com/developers/docs/resources/channel#delete-user-reaction",
                 "resource": "channel",
                 "name": "Delete User Reaction",
                 "method": "DELETE",
@@ -1622,7 +1622,7 @@
                 "parametersArray": false
             },
             "getReactions": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#get-reactions",
+                "link": "https://discord.com/developers/docs/resources/channel#get-reactions",
                 "resource": "channel",
                 "name": "Get Reactions",
                 "method": "GET",
@@ -1680,7 +1680,7 @@
                 "parametersArray": false
             },
             "deleteAllReactions": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#delete-all-reactions",
+                "link": "https://discord.com/developers/docs/resources/channel#delete-all-reactions",
                 "resource": "channel",
                 "name": "Delete All Reactions",
                 "method": "DELETE",
@@ -1701,7 +1701,7 @@
                 "parametersArray": false
             },
             "editMessage": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#edit-message",
+                "link": "https://discord.com/developers/docs/resources/channel#edit-message",
                 "resource": "channel",
                 "name": "Edit Message",
                 "method": "PATCH",
@@ -1739,7 +1739,7 @@
                 "parametersArray": false
             },
             "deleteMessage": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#delete-message",
+                "link": "https://discord.com/developers/docs/resources/channel#delete-message",
                 "resource": "channel",
                 "name": "Delete Message",
                 "method": "DELETE",
@@ -1761,7 +1761,7 @@
                 "parametersArray": false
             },
             "bulkDeleteMessages": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#bulk-delete-messages-deprecated",
+                "link": "https://discord.com/developers/docs/resources/channel#bulk-delete-messages-deprecated",
                 "deprecated": true,
                 "resource": "channel",
                 "name": "Bulk Delete Messages (deprecated)",
@@ -1778,7 +1778,7 @@
                 "parametersArray": false
             },
             "editChannelPermissions": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#edit-channel-permissions",
+                "link": "https://discord.com/developers/docs/resources/channel#edit-channel-permissions",
                 "resource": "channel",
                 "name": "Edit Channel Permissions",
                 "method": "PUT",
@@ -1815,7 +1815,7 @@
                 "parametersArray": false
             },
             "getChannelInvites": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#get-channel-invites",
+                "link": "https://discord.com/developers/docs/resources/channel#get-channel-invites",
                 "resource": "channel",
                 "name": "Get Channel Invites",
                 "method": "GET",
@@ -1842,7 +1842,7 @@
                 "parametersArray": false
             },
             "createChannelInvite": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#create-channel-invite",
+                "link": "https://discord.com/developers/docs/resources/channel#create-channel-invite",
                 "resource": "channel",
                 "name": "Create Channel Invite",
                 "method": "POST",
@@ -1889,7 +1889,7 @@
                 "parametersArray": false
             },
             "deleteChannelPermission": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#delete-channel-permission",
+                "link": "https://discord.com/developers/docs/resources/channel#delete-channel-permission",
                 "resource": "channel",
                 "name": "Delete Channel Permission",
                 "method": "DELETE",
@@ -1911,7 +1911,7 @@
                 "parametersArray": false
             },
             "triggerTypingIndicator": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#trigger-typing-indicator",
+                "link": "https://discord.com/developers/docs/resources/channel#trigger-typing-indicator",
                 "resource": "channel",
                 "name": "Trigger Typing Indicator",
                 "method": "POST",
@@ -1928,7 +1928,7 @@
                 "parametersArray": false
             },
             "getPinnedMessages": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#get-pinned-messages",
+                "link": "https://discord.com/developers/docs/resources/channel#get-pinned-messages",
                 "resource": "channel",
                 "name": "Get Pinned Messages",
                 "method": "GET",
@@ -1951,7 +1951,7 @@
                 "parametersArray": false
             },
             "addPinnedChannelMessage": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#add-pinned-channel-message",
+                "link": "https://discord.com/developers/docs/resources/channel#add-pinned-channel-message",
                 "resource": "channel",
                 "name": "Add Pinned Channel Message",
                 "method": "PUT",
@@ -1973,7 +1973,7 @@
                 "parametersArray": false
             },
             "deletePinnedChannelMessage": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#delete-pinned-channel-message",
+                "link": "https://discord.com/developers/docs/resources/channel#delete-pinned-channel-message",
                 "resource": "channel",
                 "name": "Delete Pinned Channel Message",
                 "method": "DELETE",
@@ -1995,7 +1995,7 @@
                 "parametersArray": false
             },
             "groupDmAddRecipient": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#group-dm-add-recipient",
+                "link": "https://discord.com/developers/docs/resources/channel#group-dm-add-recipient",
                 "resource": "channel",
                 "name": "Group DM Add Recipient",
                 "method": "PUT",
@@ -2026,7 +2026,7 @@
                 "parametersArray": false
             },
             "groupDmRemoveRecipient": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#group-dm-remove-recipient",
+                "link": "https://discord.com/developers/docs/resources/channel#group-dm-remove-recipient",
                 "resource": "channel",
                 "name": "Group DM Remove Recipient",
                 "method": "DELETE",
@@ -2049,7 +2049,7 @@
         },
         "emoji": {
             "listGuildEmojis": {
-                "link": "https://discordapp.com/developers/docs/resources/emoji#list-guild-emojis",
+                "link": "https://discord.com/developers/docs/resources/emoji#list-guild-emojis",
                 "resource": "emoji",
                 "name": "List Guild Emojis",
                 "method": "GET",
@@ -2072,7 +2072,7 @@
                 "parametersArray": false
             },
             "getGuildEmoji": {
-                "link": "https://discordapp.com/developers/docs/resources/emoji#get-guild-emoji",
+                "link": "https://discord.com/developers/docs/resources/emoji#get-guild-emoji",
                 "resource": "emoji",
                 "name": "Get Guild Emoji",
                 "method": "GET",
@@ -2100,7 +2100,7 @@
                 "parametersArray": false
             },
             "createGuildEmoji": {
-                "link": "https://discordapp.com/developers/docs/resources/emoji#create-guild-emoji",
+                "link": "https://discord.com/developers/docs/resources/emoji#create-guild-emoji",
                 "resource": "emoji",
                 "name": "Create Guild Emoji",
                 "method": "POST",
@@ -2138,7 +2138,7 @@
                 "parametersArray": false
             },
             "modifyGuildEmoji": {
-                "link": "https://discordapp.com/developers/docs/resources/emoji#modify-guild-emoji",
+                "link": "https://discord.com/developers/docs/resources/emoji#modify-guild-emoji",
                 "resource": "emoji",
                 "name": "Modify Guild Emoji",
                 "method": "PATCH",
@@ -2176,7 +2176,7 @@
                 "parametersArray": false
             },
             "deleteGuildEmoji": {
-                "link": "https://discordapp.com/developers/docs/resources/emoji#delete-guild-emoji",
+                "link": "https://discord.com/developers/docs/resources/emoji#delete-guild-emoji",
                 "resource": "emoji",
                 "name": "Delete Guild Emoji",
                 "method": "DELETE",
@@ -2200,7 +2200,7 @@
         },
         "invite": {
             "getInvite": {
-                "link": "https://discordapp.com/developers/docs/resources/invite#get-invite",
+                "link": "https://discord.com/developers/docs/resources/invite#get-invite",
                 "resource": "invite",
                 "name": "Get Invite",
                 "method": "GET",
@@ -2223,7 +2223,7 @@
                 "parametersArray": false
             },
             "deleteInvite": {
-                "link": "https://discordapp.com/developers/docs/resources/invite#delete-invite",
+                "link": "https://discord.com/developers/docs/resources/invite#delete-invite",
                 "resource": "invite",
                 "name": "Delete Invite",
                 "method": "DELETE",
@@ -2248,7 +2248,7 @@
         },
         "user": {
             "getCurrentUser": {
-                "link": "https://discordapp.com/developers/docs/resources/user#get-current-user",
+                "link": "https://discord.com/developers/docs/resources/user#get-current-user",
                 "resource": "user",
                 "name": "Get Current User",
                 "method": "GET",
@@ -2265,7 +2265,7 @@
                 "parametersArray": false
             },
             "getUser": {
-                "link": "https://discordapp.com/developers/docs/resources/user#get-user",
+                "link": "https://discord.com/developers/docs/resources/user#get-user",
                 "resource": "user",
                 "name": "Get User",
                 "method": "GET",
@@ -2288,7 +2288,7 @@
                 "parametersArray": false
             },
             "modifyCurrentUser": {
-                "link": "https://discordapp.com/developers/docs/resources/user#modify-current-user",
+                "link": "https://discord.com/developers/docs/resources/user#modify-current-user",
                 "resource": "user",
                 "name": "Modify Current User",
                 "method": "PATCH",
@@ -2316,7 +2316,7 @@
                 "parametersArray": false
             },
             "getCurrentUserGuilds": {
-                "link": "https://discordapp.com/developers/docs/resources/user#get-current-user-guilds",
+                "link": "https://discord.com/developers/docs/resources/user#get-current-user-guilds",
                 "resource": "user",
                 "name": "Get Current User Guilds",
                 "method": "GET",
@@ -2359,7 +2359,7 @@
                 "parametersArray": false
             },
             "leaveGuild": {
-                "link": "https://discordapp.com/developers/docs/resources/user#leave-guild",
+                "link": "https://discord.com/developers/docs/resources/user#leave-guild",
                 "resource": "user",
                 "name": "Leave Guild",
                 "method": "DELETE",
@@ -2376,7 +2376,7 @@
                 "parametersArray": false
             },
             "getUserDms": {
-                "link": "https://discordapp.com/developers/docs/resources/user#get-user-dms",
+                "link": "https://discord.com/developers/docs/resources/user#get-user-dms",
                 "resource": "user",
                 "name": "Get User DMs",
                 "method": "GET",
@@ -2393,7 +2393,7 @@
                 "parametersArray": false
             },
             "createDm": {
-                "link": "https://discordapp.com/developers/docs/resources/user#create-dm",
+                "link": "https://discord.com/developers/docs/resources/user#create-dm",
                 "resource": "user",
                 "name": "Create DM",
                 "method": "POST",
@@ -2416,7 +2416,7 @@
                 "parametersArray": false
             },
             "createGroupDm": {
-                "link": "https://discordapp.com/developers/docs/resources/user#create-group-dm",
+                "link": "https://discord.com/developers/docs/resources/user#create-group-dm",
                 "resource": "user",
                 "name": "Create Group DM",
                 "method": "POST",
@@ -2444,7 +2444,7 @@
                 "parametersArray": false
             },
             "getUserConnections": {
-                "link": "https://discordapp.com/developers/docs/resources/user#get-user-connections",
+                "link": "https://discord.com/developers/docs/resources/user#get-user-connections",
                 "resource": "user",
                 "name": "Get User Connections",
                 "method": "GET",
@@ -2463,7 +2463,7 @@
         },
         "voice": {
             "listVoiceRegions": {
-                "link": "https://discordapp.com/developers/docs/resources/voice#list-voice-regions",
+                "link": "https://discord.com/developers/docs/resources/voice#list-voice-regions",
                 "resource": "voice",
                 "name": "List Voice Regions",
                 "method": "GET",
@@ -2482,7 +2482,7 @@
         },
         "webhook": {
             "createWebhook": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#create-webhook",
+                "link": "https://discord.com/developers/docs/resources/webhook#create-webhook",
                 "resource": "webhook",
                 "name": "Create Webhook",
                 "method": "POST",
@@ -2516,7 +2516,7 @@
                 "parametersArray": false
             },
             "getChannelWebhooks": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#get-channel-webhooks",
+                "link": "https://discord.com/developers/docs/resources/webhook#get-channel-webhooks",
                 "resource": "webhook",
                 "name": "Get Channel Webhooks",
                 "method": "GET",
@@ -2539,7 +2539,7 @@
                 "parametersArray": false
             },
             "getGuildWebhooks": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#get-guild-webhooks",
+                "link": "https://discord.com/developers/docs/resources/webhook#get-guild-webhooks",
                 "resource": "webhook",
                 "name": "Get Guild Webhooks",
                 "method": "GET",
@@ -2562,7 +2562,7 @@
                 "parametersArray": false
             },
             "getWebhook": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#get-webhook",
+                "link": "https://discord.com/developers/docs/resources/webhook#get-webhook",
                 "resource": "webhook",
                 "name": "Get Webhook",
                 "method": "GET",
@@ -2585,7 +2585,7 @@
                 "parametersArray": false
             },
             "getWebhookWithToken": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#get-webhook-with-token",
+                "link": "https://discord.com/developers/docs/resources/webhook#get-webhook-with-token",
                 "resource": "webhook",
                 "name": "Get Webhook with Token",
                 "method": "GET",
@@ -2606,7 +2606,7 @@
                 "parametersArray": false
             },
             "modifyWebhook": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#modify-webhook",
+                "link": "https://discord.com/developers/docs/resources/webhook#modify-webhook",
                 "resource": "webhook",
                 "name": "Modify Webhook",
                 "method": "PATCH",
@@ -2644,7 +2644,7 @@
                 "parametersArray": false
             },
             "modifyWebhookWithToken": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#modify-webhook-with-token",
+                "link": "https://discord.com/developers/docs/resources/webhook#modify-webhook-with-token",
                 "resource": "webhook",
                 "name": "Modify Webhook with Token",
                 "method": "PATCH",
@@ -2665,7 +2665,7 @@
                 "parametersArray": false
             },
             "deleteWebhook": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#delete-webhook",
+                "link": "https://discord.com/developers/docs/resources/webhook#delete-webhook",
                 "resource": "webhook",
                 "name": "Delete Webhook",
                 "method": "DELETE",
@@ -2682,7 +2682,7 @@
                 "parametersArray": false
             },
             "deleteWebhookWithToken": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#delete-webhook-with-token",
+                "link": "https://discord.com/developers/docs/resources/webhook#delete-webhook-with-token",
                 "resource": "webhook",
                 "name": "Delete Webhook with Token",
                 "method": "DELETE",
@@ -2703,7 +2703,7 @@
                 "parametersArray": false
             },
             "executeWebhook": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#execute-webhook",
+                "link": "https://discord.com/developers/docs/resources/webhook#execute-webhook",
                 "resource": "webhook",
                 "name": "Execute Webhook",
                 "method": "POST",
@@ -2790,7 +2790,7 @@
                 "parametersArray": false
             },
             "executeSlackCompatibleWebhook": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#execute-slack-compatible-webhook",
+                "link": "https://discord.com/developers/docs/resources/webhook#execute-slack-compatible-webhook",
                 "resource": "webhook",
                 "name": "Execute Slack-Compatible Webhook",
                 "method": "POST",
@@ -2820,7 +2820,7 @@
                 "parametersArray": false
             },
             "executeGithubCompatibleWebhook": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#execute-github-compatible-webhook",
+                "link": "https://discord.com/developers/docs/resources/webhook#execute-github-compatible-webhook",
                 "resource": "webhook",
                 "name": "Execute GitHub-Compatible Webhook",
                 "method": "POST",
@@ -2852,7 +2852,7 @@
         },
         "gateway": {
             "getGateway": {
-                "link": "https://discordapp.com/developers/docs/topics/gateway#get-gateway",
+                "link": "https://discord.com/developers/docs/topics/gateway#get-gateway",
                 "resource": "gateway",
                 "name": "Get Gateway",
                 "method": "GET",
@@ -2862,7 +2862,7 @@
                 "parametersArray": false
             },
             "getGatewayBot": {
-                "link": "https://discordapp.com/developers/docs/topics/gateway#get-gateway-bot",
+                "link": "https://discord.com/developers/docs/topics/gateway#get-gateway-bot",
                 "resource": "gateway",
                 "name": "Get Gateway Bot",
                 "method": "GET",
@@ -2890,7 +2890,7 @@
         },
         "oauth2": {
             "getCurrentApplicationInformation": {
-                "link": "https://discordapp.com/developers/docs/topics/oauth2#get-current-application-information",
+                "link": "https://discord.com/developers/docs/topics/oauth2#get-current-application-information",
                 "resource": "oauth2",
                 "name": "Get Current Application Information",
                 "method": "GET",
@@ -2950,7 +2950,7 @@
     "models": {
         "guild": {
             "guild": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#guild-object",
+                "link": "https://discord.com/developers/docs/resources/guild#guild-object",
                 "resource": "guild",
                 "description": "",
                 "type": "object",
@@ -3152,14 +3152,14 @@
                 }
             },
             "unavailableGuild": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#unavailable-guild-object",
+                "link": "https://discord.com/developers/docs/resources/guild#unavailable-guild-object",
                 "resource": "guild",
                 "description": "",
                 "type": "object",
                 "properties": {}
             },
             "guildEmbed": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#guild-embed-object",
+                "link": "https://discord.com/developers/docs/resources/guild#guild-embed-object",
                 "resource": "guild",
                 "description": "",
                 "type": "object",
@@ -3179,7 +3179,7 @@
                 }
             },
             "guildMember": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#guild-member-object",
+                "link": "https://discord.com/developers/docs/resources/guild#guild-member-object",
                 "resource": "guild",
                 "description": "",
                 "type": "object",
@@ -3219,7 +3219,7 @@
                 }
             },
             "integration": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#integration-object",
+                "link": "https://discord.com/developers/docs/resources/guild#integration-object",
                 "resource": "guild",
                 "description": "",
                 "type": "object",
@@ -3284,7 +3284,7 @@
                 }
             },
             "integrationAccount": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#integration-account-object",
+                "link": "https://discord.com/developers/docs/resources/guild#integration-account-object",
                 "resource": "guild",
                 "description": "",
                 "type": "object",
@@ -3302,7 +3302,7 @@
                 }
             },
             "ban": {
-                "link": "https://discordapp.com/developers/docs/resources/guild#ban-object",
+                "link": "https://discord.com/developers/docs/resources/guild#ban-object",
                 "resource": "guild",
                 "description": "",
                 "type": "object",
@@ -3600,7 +3600,7 @@
         },
         "audit-log": {
             "auditLog": {
-                "link": "https://discordapp.com/developers/docs/resources/audit-log#audit-log-object",
+                "link": "https://discord.com/developers/docs/resources/audit-log#audit-log-object",
                 "resource": "audit-log",
                 "description": "",
                 "type": "object",
@@ -3623,7 +3623,7 @@
                 }
             },
             "auditLogEntry": {
-                "link": "https://discordapp.com/developers/docs/resources/audit-log#audit-log-entry-object",
+                "link": "https://discord.com/developers/docs/resources/audit-log#audit-log-entry-object",
                 "resource": "audit-log",
                 "description": "",
                 "type": "object",
@@ -3667,7 +3667,7 @@
                 }
             },
             "auditLogChange": {
-                "link": "https://discordapp.com/developers/docs/resources/audit-log#audit-log-change-object",
+                "link": "https://discord.com/developers/docs/resources/audit-log#audit-log-change-object",
                 "resource": "audit-log",
                 "description": "",
                 "type": "object",
@@ -3692,7 +3692,7 @@
         },
         "channel": {
             "channel": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#channel-object",
+                "link": "https://discord.com/developers/docs/resources/channel#channel-object",
                 "resource": "channel",
                 "description": "",
                 "type": "object",
@@ -3795,7 +3795,7 @@
                 }
             },
             "message": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#message-object",
+                "link": "https://discord.com/developers/docs/resources/channel#message-object",
                 "resource": "channel",
                 "description": "",
                 "type": "object",
@@ -3939,7 +3939,7 @@
                 }
             },
             "reaction": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#reaction-object",
+                "link": "https://discord.com/developers/docs/resources/channel#reaction-object",
                 "resource": "channel",
                 "description": "",
                 "type": "object",
@@ -3963,7 +3963,7 @@
                 }
             },
             "overwrite": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#overwrite-object",
+                "link": "https://discord.com/developers/docs/resources/channel#overwrite-object",
                 "resource": "channel",
                 "description": "",
                 "type": "object",
@@ -3991,7 +3991,7 @@
                 }
             },
             "embed": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#embed-object",
+                "link": "https://discord.com/developers/docs/resources/channel#embed-object",
                 "resource": "channel",
                 "description": "",
                 "type": "object",
@@ -4115,7 +4115,7 @@
                 }
             },
             "attachment": {
-                "link": "https://discordapp.com/developers/docs/resources/channel#attachment-object",
+                "link": "https://discord.com/developers/docs/resources/channel#attachment-object",
                 "resource": "channel",
                 "description": "",
                 "type": "object",
@@ -4162,7 +4162,7 @@
         },
         "emoji": {
             "emoji": {
-                "link": "https://discordapp.com/developers/docs/resources/emoji#emoji-object",
+                "link": "https://discord.com/developers/docs/resources/emoji#emoji-object",
                 "resource": "emoji",
                 "description": "",
                 "type": "object",
@@ -4221,7 +4221,7 @@
         },
         "invite": {
             "invite": {
-                "link": "https://discordapp.com/developers/docs/resources/invite#invite-object",
+                "link": "https://discord.com/developers/docs/resources/invite#invite-object",
                 "resource": "invite",
                 "description": "",
                 "type": "object",
@@ -4264,7 +4264,7 @@
                 }
             },
             "inviteMetadata": {
-                "link": "https://discordapp.com/developers/docs/resources/invite#invite-metadata-object",
+                "link": "https://discord.com/developers/docs/resources/invite#invite-metadata-object",
                 "resource": "invite",
                 "description": "",
                 "type": "object",
@@ -4311,7 +4311,7 @@
         },
         "user": {
             "user": {
-                "link": "https://discordapp.com/developers/docs/resources/user#user-object",
+                "link": "https://discord.com/developers/docs/resources/user#user-object",
                 "resource": "user",
                 "description": "",
                 "type": "object",
@@ -4411,7 +4411,7 @@
                 }
             },
             "connection": {
-                "link": "https://discordapp.com/developers/docs/resources/user#connection-object",
+                "link": "https://discord.com/developers/docs/resources/user#connection-object",
                 "resource": "user",
                 "description": "",
                 "type": "object",
@@ -4520,7 +4520,7 @@
         },
         "voice": {
             "voiceState": {
-                "link": "https://discordapp.com/developers/docs/resources/voice#voice-state-object",
+                "link": "https://discord.com/developers/docs/resources/voice#voice-state-object",
                 "resource": "voice",
                 "description": "",
                 "type": "object",
@@ -4584,7 +4584,7 @@
                 }
             },
             "voiceRegion": {
-                "link": "https://discordapp.com/developers/docs/resources/voice#voice-region-object",
+                "link": "https://discord.com/developers/docs/resources/voice#voice-region-object",
                 "resource": "voice",
                 "description": "",
                 "type": "object",
@@ -4628,7 +4628,7 @@
         },
         "webhook": {
             "webhook": {
-                "link": "https://discordapp.com/developers/docs/resources/webhook#webhook-object",
+                "link": "https://discord.com/developers/docs/resources/webhook#webhook-object",
                 "resource": "webhook",
                 "description": "",
                 "type": "object",
@@ -4739,7 +4739,7 @@
         },
         "gateway": {
             "sessionStartLimit": {
-                "link": "https://discordapp.com/developers/docs/topics/gateway#session-start-limit-object",
+                "link": "https://discord.com/developers/docs/topics/gateway#session-start-limit-object",
                 "resource": "gateway",
                 "description": "",
                 "type": "object",
@@ -4765,7 +4765,7 @@
         "oauth2": {},
         "permissions": {
             "role": {
-                "link": "https://discordapp.com/developers/docs/topics/permissions#role-object",
+                "link": "https://discord.com/developers/docs/topics/permissions#role-object",
                 "resource": "permissions",
                 "description": "",
                 "type": "object",

@@ -19,7 +19,7 @@ namespace RestCord\Interfaces;
 interface Invite {
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/invite#delete-invite
+	 * @see https://discord.com/developers/docs/resources/invite#delete-invite
 	 *
 	 * @param array $options ['invite.code' => 'string']
 	 * @return \RestCord\Model\Invite\Invite Returns an invite object on success.
@@ -27,7 +27,7 @@ interface Invite {
 	public function deleteInvite(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/invite#get-invite
+	 * @see https://discord.com/developers/docs/resources/invite#get-invite
 	 *
 	 * @param array $options ['invite.code' => 'string']
 	 * @return \RestCord\Model\Invite\Invite Returns an invite object for the given code.

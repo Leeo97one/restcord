@@ -19,7 +19,7 @@ namespace RestCord\Interfaces;
 interface Channel {
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#add-pinned-channel-message
+	 * @see https://discord.com/developers/docs/resources/channel#add-pinned-channel-message
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'message.id' => 'snowflake']
 	 * @return array Returns a 204 empty response on success.
@@ -27,7 +27,7 @@ interface Channel {
 	public function addPinnedChannelMessage(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#bulk-delete-messages-deprecated
+	 * @see https://discord.com/developers/docs/resources/channel#bulk-delete-messages-deprecated
 	 *
 	 * @param array $options ['channel.id' => 'snowflake']
 	 * @return array
@@ -35,7 +35,7 @@ interface Channel {
 	public function bulkDeleteMessages(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#create-channel-invite
+	 * @see https://discord.com/developers/docs/resources/channel#create-channel-invite
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'max_age' => 'integer', 'max_uses' => 'integer', 'temporary' => 'boolean', 'unique' => 'boolean']
 	 * @return \RestCord\Model\Invite\Invite Returns an invite object.
@@ -43,7 +43,7 @@ interface Channel {
 	public function createChannelInvite(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#create-message
+	 * @see https://discord.com/developers/docs/resources/channel#create-message
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'content' => 'string', 'nonce' => 'snowflake', 'tts' => 'boolean', 'file' => 'file contents', 'embed' => 'object', 'payload_json' => 'string']
 	 * @return array
@@ -51,7 +51,7 @@ interface Channel {
 	public function createMessage(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#create-reaction
+	 * @see https://discord.com/developers/docs/resources/channel#create-reaction
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'message.id' => 'snowflake', 'emoji' => 'string']
 	 * @return array Returns a 204 empty response on success.
@@ -59,7 +59,7 @@ interface Channel {
 	public function createReaction(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#delete-all-reactions
+	 * @see https://discord.com/developers/docs/resources/channel#delete-all-reactions
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'message.id' => 'snowflake']
 	 * @return array
@@ -67,7 +67,7 @@ interface Channel {
 	public function deleteAllReactions(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#delete-channel-permission
+	 * @see https://discord.com/developers/docs/resources/channel#delete-channel-permission
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'overwrite.id' => 'string']
 	 * @return array Returns a 204 empty response on success.
@@ -75,7 +75,7 @@ interface Channel {
 	public function deleteChannelPermission(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#delete-message
+	 * @see https://discord.com/developers/docs/resources/channel#delete-message
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'message.id' => 'snowflake']
 	 * @return array Returns a 204 empty response on success.
@@ -83,7 +83,7 @@ interface Channel {
 	public function deleteMessage(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#delete/close-channel
+	 * @see https://discord.com/developers/docs/resources/channel#delete/close-channel
 	 *
 	 * @param array $options ['channel.id' => 'snowflake']
 	 * @return \RestCord\Model\Channel\Channel Returns a channel object on success.
@@ -91,7 +91,7 @@ interface Channel {
 	public function deleteOrcloseChannel(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#delete-own-reaction
+	 * @see https://discord.com/developers/docs/resources/channel#delete-own-reaction
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'message.id' => 'snowflake', 'emoji' => 'string']
 	 * @return array Returns a 204 empty response on success.
@@ -99,7 +99,7 @@ interface Channel {
 	public function deleteOwnReaction(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#delete-pinned-channel-message
+	 * @see https://discord.com/developers/docs/resources/channel#delete-pinned-channel-message
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'message.id' => 'snowflake']
 	 * @return array Returns a 204 empty response on success.
@@ -107,7 +107,7 @@ interface Channel {
 	public function deletePinnedChannelMessage(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#delete-user-reaction
+	 * @see https://discord.com/developers/docs/resources/channel#delete-user-reaction
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'message.id' => 'snowflake', 'emoji' => 'string', 'user.id' => 'snowflake']
 	 * @return array Returns a 204 empty response on success.
@@ -115,7 +115,7 @@ interface Channel {
 	public function deleteUserReaction(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#edit-channel-permissions
+	 * @see https://discord.com/developers/docs/resources/channel#edit-channel-permissions
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'overwrite.id' => 'string', 'allow' => 'integer', 'deny' => 'integer', 'type' => 'string']
 	 * @return array Returns a 204 empty response on success.
@@ -123,7 +123,7 @@ interface Channel {
 	public function editChannelPermissions(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#edit-message
+	 * @see https://discord.com/developers/docs/resources/channel#edit-message
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'message.id' => 'snowflake', 'content' => 'string', 'embed' => 'object']
 	 * @return \RestCord\Model\Channel\Message Returns a message object.
@@ -131,7 +131,7 @@ interface Channel {
 	public function editMessage(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#get-channel
+	 * @see https://discord.com/developers/docs/resources/channel#get-channel
 	 *
 	 * @param array $options ['channel.id' => 'snowflake']
 	 * @return \RestCord\Model\Channel\Channel Returns a channel object.
@@ -139,7 +139,7 @@ interface Channel {
 	public function getChannel(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#get-channel-invites
+	 * @see https://discord.com/developers/docs/resources/channel#get-channel-invites
 	 *
 	 * @param array $options ['channel.id' => 'snowflake']
 	 * @return \RestCord\Model\Invite\Invite[] Returns a list of invite objects (with invite metadata) for the channel.
@@ -147,7 +147,7 @@ interface Channel {
 	public function getChannelInvites(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#get-channel-message
+	 * @see https://discord.com/developers/docs/resources/channel#get-channel-message
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'message.id' => 'snowflake']
 	 * @return \RestCord\Model\Channel\Message Returns a specific message in the channel.
@@ -155,7 +155,7 @@ interface Channel {
 	public function getChannelMessage(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#get-channel-messages
+	 * @see https://discord.com/developers/docs/resources/channel#get-channel-messages
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'around' => 'snowflake', 'before' => 'snowflake', 'after' => 'snowflake', 'limit' => 'integer']
 	 * @return \RestCord\Model\Channel\Message[] Returns the messages for a channel.
@@ -163,7 +163,7 @@ interface Channel {
 	public function getChannelMessages(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#get-pinned-messages
+	 * @see https://discord.com/developers/docs/resources/channel#get-pinned-messages
 	 *
 	 * @param array $options ['channel.id' => 'snowflake']
 	 * @return \RestCord\Model\Channel\Message Returns all pinned messages in the channel as an array of message objects.
@@ -171,7 +171,7 @@ interface Channel {
 	public function getPinnedMessages(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#get-reactions
+	 * @see https://discord.com/developers/docs/resources/channel#get-reactions
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'message.id' => 'snowflake', 'emoji' => 'string', 'before' => 'snowflake', 'after' => 'snowflake', 'limit' => 'integer']
 	 * @return \RestCord\Model\User\User[] Returns an array of user objects on success.
@@ -179,7 +179,7 @@ interface Channel {
 	public function getReactions(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#group-dm-add-recipient
+	 * @see https://discord.com/developers/docs/resources/channel#group-dm-add-recipient
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'user.id' => 'snowflake', 'access_token' => 'string', 'nick' => 'string']
 	 * @return array
@@ -187,7 +187,7 @@ interface Channel {
 	public function groupDmAddRecipient(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#group-dm-remove-recipient
+	 * @see https://discord.com/developers/docs/resources/channel#group-dm-remove-recipient
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'user.id' => 'snowflake']
 	 * @return array
@@ -195,7 +195,7 @@ interface Channel {
 	public function groupDmRemoveRecipient(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#modify-channel
+	 * @see https://discord.com/developers/docs/resources/channel#modify-channel
 	 *
 	 * @param array $options ['channel.id' => 'snowflake', 'name' => 'string', 'position' => 'integer', 'topic' => 'string', 'nsfw' => 'boolean', 'rate_limit_per_user' => 'integer', 'bitrate' => 'integer', 'user_limit' => 'integer', 'permission_overwrites' => 'array', 'parent_id' => 'snowflake']
 	 * @return \RestCord\Model\Channel\Channel Returns a channel on success, and a 400 BAD REQUEST on invalid parameters.
@@ -203,7 +203,7 @@ interface Channel {
 	public function modifyChannel(array $options);
 
 	/**
-	 * @see https://discordapp.com/developers/docs/resources/channel#trigger-typing-indicator
+	 * @see https://discord.com/developers/docs/resources/channel#trigger-typing-indicator
 	 *
 	 * @param array $options ['channel.id' => 'snowflake']
 	 * @return array Returns a 204 empty response on success.
